@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Училишта</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Училишта</h1>
+      <nav>
+        <a href="../index.html">Почетна</a>
+        <a href="../materials/">Материјали</a>
+        <a href="../schools/">Училишта</a>
+        <a href="../contacts/">Контакт</a>
+        <a href="../evaluation/">Евалуација</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <p class="meta">На крајот на полугодието ќе бидат отворени форми за евалуација, каде што студентот и менторот можат да ги искажат своите мислења во врска со програмата.</p>
+      <p class="meta">Напомена: Овој формулар служи за собирање на информации со цел подобрување на менторската програма, и истиот не се користи за оценување на студентот</p>
+      <table class="table">
+        <thead>
+          <tr><th>Улога</th><th>Линк од форма за евалуација</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Евалуација од ментор</td><td><a href="#" target="_blank" rel="noopener">Отвори</a></td></tr>
+          <tr><td>Евалауција од студент </td><td><a href="#" target="_blank" rel="noopener">Отвори</a></td></tr>
+
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Менторска Програма - Горан Делов</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
